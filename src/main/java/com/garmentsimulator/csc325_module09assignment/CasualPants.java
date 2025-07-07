@@ -4,4 +4,12 @@ public class CasualPants implements Pants {
 
     public CasualPants(){}
 
+    public String getVariant(){
+        return "Casual";
+    }
+
+    public String getType(){
+        return "Pants";
+    }
+
 }

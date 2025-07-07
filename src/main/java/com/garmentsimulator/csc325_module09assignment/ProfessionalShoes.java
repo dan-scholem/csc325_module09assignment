@@ -4,4 +4,12 @@ public class ProfessionalShoes implements Shoes{
 
     public ProfessionalShoes(){}
 
+    public String getVariant(){
+        return "Professional";
+    }
+
+    public String getType(){
+        return "Shoes";
+    }
+
 }

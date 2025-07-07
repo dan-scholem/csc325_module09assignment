@@ -4,4 +4,12 @@ public class CasualShoes implements Shoes{
 
     public CasualShoes(){}
 
+    public String getVariant(){
+        return "Casual";
+    }
+
+    public String getType(){
+        return "Shoes";
+    }
+
 }

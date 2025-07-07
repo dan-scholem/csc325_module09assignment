@@ -4,4 +4,12 @@ public class PartyTop implements Top{
 
     public PartyTop() {}
 
+    public String getVariant(){
+        return "Party";
+    }
+
+    public String getType(){
+        return "Top";
+    }
+
 }

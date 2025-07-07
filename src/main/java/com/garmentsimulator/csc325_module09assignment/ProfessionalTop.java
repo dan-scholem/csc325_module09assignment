@@ -4,4 +4,13 @@ public class ProfessionalTop implements Top{
 
     public ProfessionalTop() {}
 
+    public String getVariant(){
+        return "Professional";
+    }
+
+    public String getType(){
+        return "Top";
+    }
+
+
 }
