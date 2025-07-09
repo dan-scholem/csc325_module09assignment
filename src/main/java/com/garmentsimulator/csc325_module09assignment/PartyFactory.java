@@ -1,4 +1,5 @@
 package com.garmentsimulator.csc325_module09assignment;
+//Generates a family of products of the party variant
 
 public class PartyFactory implements GarmentFactory{
 

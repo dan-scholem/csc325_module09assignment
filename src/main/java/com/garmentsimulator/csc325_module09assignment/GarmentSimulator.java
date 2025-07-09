@@ -36,6 +36,7 @@ public class GarmentSimulator {
         this.shoes = shoes;
     }
 
+    //method to test if all garments are of the same family
     public boolean testFamilyMatch(Top top, Pants pants, Shoes shoes){
         return top.getVariant().equals(pants.getVariant()) && pants.getVariant().equals(shoes.getVariant());
     }

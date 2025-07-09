@@ -1,4 +1,5 @@
 package com.garmentsimulator.csc325_module09assignment;
+//Generates a family of products of the professional variant
 
 public class ProfessionalFactory implements GarmentFactory {
 
